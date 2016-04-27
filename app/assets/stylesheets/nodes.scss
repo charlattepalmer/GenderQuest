@@ -1,3 +1,22 @@
 // Place all the styles related to the nodes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.node-markdown a.restricted {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: line-through;
+  color: red !important;
+
+  //-webkit-touch-callout: none; /* iOS Safari */
+  //-webkit-user-select: none;   /* Chrome/Safari/Opera */
+  //-khtml-user-select: none;    /* Konqueror */
+  //-moz-user-select: none;      /* Firefox */
+  //-ms-user-select: none;       /* Internet Explorer/Edge */
+  //user-select: none;           /* Non-prefixed version, currently
+  //                                not supported by any browser */
+}
+
+.node-markdown a, .node-markdown a:visited {
+  color: black;
+}

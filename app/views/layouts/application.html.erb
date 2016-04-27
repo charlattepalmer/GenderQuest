@@ -7,6 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<script>
+  var score = <%= defined?(@score) ? @score : 99 %>;
+</script>
 <p>[here is the same header on all pages]</p>
 <hr>
 <div id="content"><%= content_for?(:content) ? yield(:content) : yield %></div>

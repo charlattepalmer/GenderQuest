@@ -3,7 +3,9 @@
     <div id="chain">Chain: <%= @chain %></div>
     <hr>
     <br><br>
-    <%= yield %>
+    <div class="node-markdown">
+      <%= yield %>
+    </div>
     <br><br>
 <% end %>
 <%= render template: "layouts/application" %>

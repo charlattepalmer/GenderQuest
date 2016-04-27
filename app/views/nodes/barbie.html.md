@@ -8,6 +8,7 @@ Your daughter's Barbie says "Math is hard."*
 a) [Laugh and continue to watch her press the button](/node/laugh)
 
 b) [Horrified, snatch it out of her hands and throw it away](/node/snatch)
+<div class="restrict" data-min-score=0 ></div>
 
 c) [Explain to her that she can be great at math, and not to listen to the toy](/node/explain)
-<div class="restrict" data-score="<%= @score %>" data-min-score="2" ></div>
+<div class="restrict" data-min-score=2 ></div>

@@ -22,6 +22,9 @@ class NodesController < ApplicationController
     set_score
 
     hash = {
+        "max": -1,
+        "melody": +1,
+
         "weak": -1,
         "strong": +1,
 
