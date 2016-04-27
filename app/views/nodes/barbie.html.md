@@ -10,3 +10,4 @@ a) [Laugh and continue to watch her press the button](/node/laugh)
 b) [Horrified, snatch it out of her hands and throw it away](/node/snatch)
 
 c) [Explain to her that she can be great at math, and not to listen to the toy](/node/explain)
+<div class="restrict" data-score="<%= @score %>" data-min-score="2" ></div>

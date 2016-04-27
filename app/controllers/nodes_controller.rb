@@ -22,8 +22,13 @@ class NodesController < ApplicationController
     set_score
 
     hash = {
-        "barbie": 1
-    }
+        "weak": -1,
+        "strong": +1,
+
+        "laugh": -1,
+        "explain": +1
+
+    }.with_indifferent_access
 
     if controller_name == "nodes" and action_name == "index"
       @score = 0
