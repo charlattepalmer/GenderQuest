@@ -20,3 +20,7 @@
 .node-markdown a, .node-markdown a:visited {
   color: black;
 }
+
+.node-markdown a:hover, .node-markdown a:visited:hover {
+  background-color: grey;
+}
