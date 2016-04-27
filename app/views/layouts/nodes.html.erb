@@ -1,0 +1,9 @@
+<% content_for :content do %>
+    <div id="scores">Score: <%= @score %></div
+    <div id="chain">Chain: <%= @chain %></div>
+    <hr>
+    <br><br>
+    <%= yield %>
+    <br><br>
+<% end %>
+<%= render template: "layouts/application" %>

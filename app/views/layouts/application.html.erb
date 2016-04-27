@@ -8,11 +8,10 @@
 </head>
 <body>
 <p>[here is the same header on all pages]</p>
-<br><br>
-
-<%= yield %>
-
-<br><br>
+<hr>
+<div id="content"><%= content_for?(:content) ? yield(:content) : yield %></div>
+<hr>
 <p>[here is the same footer on all pages]</p>
+<%= link_to "Start over", root_path %>
 </body>
 </html>
