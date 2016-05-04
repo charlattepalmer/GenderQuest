@@ -15,4 +15,4 @@ a) [Continue programming and pretend you never heard the conversation](/node/equ
 
 b) [Ask your boss what they are talking about](/node/equal_pay_2)
 
-c) [Inform your boss that you want to be paid the same amount as your male counterpart](/node/[equal_pay_3])
+c) [Inform your boss that you want to be paid the same amount as your male counterpart](/node/equal_pay_3)
