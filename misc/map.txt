@@ -1,0 +1,8 @@
+
+index -> melody
+
+melody -> shrug, ask, tell
+
+shrug -> max?
+ask ->
+tell ->

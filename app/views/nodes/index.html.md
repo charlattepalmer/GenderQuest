@@ -28,6 +28,4 @@ impact.
 **So without further ado, here is Gender Quest: the Quest of Delving Deeper into the Effect of
 Media Influence and What You Can Do to Prevent It**
 
-* [Play as Melody](/node/melody)
-
-* [Play as Max](/node/max)
+* [Start Melody's journey](/node/barbie)

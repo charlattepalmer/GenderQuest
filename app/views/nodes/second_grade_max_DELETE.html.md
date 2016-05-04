@@ -5,8 +5,8 @@ I'll get one of the boys to do it."*
 
 **Do you:**
 
-a) [Say "Girls aren't stong enough, let the boys do it."](/node/weak)
+a) [Say "Girls aren't stong enough, let the boys do it."](/node/max1)
 
-b) [Offer to help instead](/node/help)
+b) [Offer to help instead](/node/max2)
 
-c) [Say "Girls are as strong as boys"](/node/strong)
+c) [Say "Girls are as strong as boys"](/node/max3)

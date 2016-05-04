@@ -2,7 +2,7 @@ $(function () {
   //console.log("DOCUMENT READY");
   //console.log("SCORE IS " + score );
   $(".restrict").each(function() {
-    var min_score = $(this).data("min-score")
+    var min_score = $(this).data("restrict-if-score-below")
     //console.log("MIN SCORE IS " + min_score );
     if (score < min_score) {
       var $a = $(this).prev("p").children("a");
