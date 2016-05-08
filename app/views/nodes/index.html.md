@@ -16,9 +16,9 @@ discrimination in some form.
 
 **If you're a boy, this is something new.**
 
-You get to witness firsthand a world where you are the lower class.
+You can now to witness firsthand a world where you are the lower class.
 
-You get to experience inequality in everyday life.
+You can now experience inequality in everyday life.
 
 **Regardless of your gender, I hope you learn something from this.**
 
