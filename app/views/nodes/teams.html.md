@@ -8,7 +8,7 @@ won't be chosen first.*
 
 **Do you**
 
-a) [Ignore them and continue to choose all boys](/node/teams_1)
+a) [Ignore the girls and continue to choose all boys](/node/teams_1)
 
 b) [Ask why they're standing in the back](/node/teams_2)
 
