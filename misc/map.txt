@@ -31,11 +31,7 @@ basketball_melody_3 -> college
 
 college -> college 1, 2, 3
 
-college 1, 2, 3 -> biology
-
-biology -> biology 1, 2, 3
-
-biology 1, 2, 3 -> equal_pay
+college 1, 2, 3 -> equal_pay
 
 equal_pay -> equal_pay 1, 2, 3
 
