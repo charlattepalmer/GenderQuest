@@ -9,9 +9,7 @@ Your daughter's Barbie says "Math is hard."*
 **Do you:**
 
 a) [Laugh and continue to watch her press the button](/node/barbie_1)
-<div class="restrict" data-restrict-if-score-above=-1 ></div>
 
 b) [Horrified, snatch it out of her hands and throw it away](/node/barbie_2)
 
 c) [Explain to her that she can be great at math, and not to listen to the toy](/node/barbie_3)
-<div class="restrict" data-restrict-if-score-below=2 ></div>
