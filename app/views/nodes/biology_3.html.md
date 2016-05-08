@@ -1,2 +1,0 @@
-
-[Continue journey](/node/grad)

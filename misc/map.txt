@@ -35,11 +35,7 @@ college 1, 2, 3 -> biology
 
 biology -> biology 1, 2, 3
 
-biology 1, 2, 3 -> grad
-
-grad -> grad 1, 2, 3
-
-grad 1, 2, 3 -> equal_pay
+biology 1, 2, 3 -> equal_pay
 
 equal_pay -> equal_pay 1, 2, 3
 

@@ -12,4 +12,4 @@ a) [Say "Wow, Mike, a **girl** beat you!"](/node/running_1)
 
 b) [Laugh and point along with your other friends](/node/running_2)
 
-c) [Say, "Nice, Melody and Mike." ](/node/running_3)
+c) [Say, "Nice job, Melody and Mike." ](/node/running_3)

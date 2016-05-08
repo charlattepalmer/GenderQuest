@@ -1,4 +1,4 @@
 
-*You choose girls too and they don't all stand in back they come to the front too.*
+*You choose girls as well as boys, and they begin to come to the front, once they see they are being chosen.*
 
 [Continue journey](/node/running)
