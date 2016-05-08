@@ -1,12 +1,47 @@
+function do_post(path, parameters) {
+  var form = $('<form></form>');
+
+  form.attr("method", "post");
+  form.attr("action", path);
+
+  $.each(parameters, function(key, value) {
+    var field = $('<input></input>');
+
+    field.attr("type", "hidden");
+    field.attr("name", key);
+    field.attr("value", value);
+
+    form.append(field);
+  });
+
+  // The form needs to be a part of the document in
+  // order for us to be able to submit it.
+  $(document.body).append(form);
+  form.submit();
+}
+
 $(function () {
-  //console.log("DOCUMENT READY");
-  //console.log("SCORE IS " + score );
   $(".restrict").each(function() {
-    var min_score = $(this).data("restrict-if-score-below")
-    //console.log("MIN SCORE IS " + min_score );
-    if (score < min_score) {
+    var min_score = -999999;
+    var max_score = 999999;
+    if (typeof($(this).attr("data-restrict-if-score-below")) !== "undefined") {
+      min_score = $(this).data("restrict-if-score-below");
+    }
+    if (typeof($(this).attr("data-restrict-if-score-above")) !== "undefined") {
+      max_score = $(this).data("restrict-if-score-above");
+    }
+//    console.log("min_score: "+min_score)
+//    console.log("max_score: "+max_score)
+//    console.log("score: "+score)
+    if ((score < min_score) || (score > max_score)) {
       var $a = $(this).prev("p").children("a");
       $a.addClass("restricted");
     }
   });
+
+  $("a[href^='/node']").on("click", function(event) {
+    var href = $(this).attr("href");
+    do_post(href, { chain: JSON.stringify(chain) } );
+    event.preventDefault();
+  })
 });
