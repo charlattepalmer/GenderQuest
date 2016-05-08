@@ -4,8 +4,8 @@
 *I created this site to teach both girls and boys alike the influence media has on every one of us.
 In our modern world, we can hardly go a couple feet without running into another sexualized
 advertisement or gender-discriminatory billboard. And that's why I believe it is so very important
-to educate the next generation about this epidemic of false images and information that we are
-bombarded with every day of our lives.*
+to educate the next generation about this epidemic of false images and information that bombards
+us every day of our lives.*
 
 **If you're a girl, you will understand this journey.**
 
