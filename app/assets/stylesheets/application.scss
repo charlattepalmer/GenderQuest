@@ -1,0 +1,21 @@
+//= require nodes
+//=# require scaffolds
+
+// Setting bootstrap variables here works:
+//$link-color:        purple;
+$font-size-base:    16px !default;
+//$font-family-base:  "helvetica neue", arial, sans-serif;
+//$line-height-base:  1.428571429 !default; // 20/14
+
+// http://getbootstrap.com/components/#navbar-component-alignment
+//$grid-float-breakpoint: 992px;
+//$navbar-collapse-width: 992px;
+
+// "bootstrap-sprockets" must be imported before "bootstrap"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.debug {
+  background-color: rgba(193, 45, 45, 0.2);
+  padding: 20px;
+}
