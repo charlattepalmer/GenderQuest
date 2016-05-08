@@ -31,7 +31,11 @@ basketball_melody_2 -> basketball_melody_2 1, 2, 3
 
 basketball_melody_2 1, 2, 3 -> biology
 
-basketball_melody_3 -> biology
+basketball_melody_3 -> college
+
+college -> college 1, 2, 3
+
+college 1, 2, 3 -> biology
 
 biology -> biology 1, 2, 3
 
