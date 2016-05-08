@@ -8,7 +8,7 @@ decision.*
 
 **Do you:**
 
-a) [Say "Basketball is a boy's sport."](/node/basketball_melody_1)
+a) [Laugh and say "Basketball is a boy's sport."](/node/basketball_melody_1)
 
 b) [After a minute of talking to your friends, say "Fine."](/node/basketball_melody_2)
 
