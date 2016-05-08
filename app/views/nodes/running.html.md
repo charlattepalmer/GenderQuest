@@ -2,7 +2,7 @@
 ## You are: Max
 ## Location: School
 
-*You are in sixth grade, and are running the mile in P.E. Your good friend Mike finishes second,
+*You are in seventh grade, and are running the mile in P.E. Your good friend Mike finishes second,
 behind Melody, a girl in your class. Your other friends laugh and point at him, jostling each
 other.*
 

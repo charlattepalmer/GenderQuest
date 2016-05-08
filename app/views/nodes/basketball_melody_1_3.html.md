@@ -3,4 +3,4 @@
 and say they're going to start their own game of basketball. They invite you to join, and you gladly accept. You
 spend the rest of the afternoon laughing and scoring baskets.*
 
-[Continue journey](/node/makeup)
+[Continue journey](/node/college)

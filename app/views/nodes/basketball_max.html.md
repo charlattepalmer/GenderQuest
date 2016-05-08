@@ -1,8 +1,10 @@
+
 ## You are: Max
 ## Location: The basketball court at school
 
-*You are in seventh grade. You and some of your friends are playing basketball after school. Melody walks up and asks if she can join as well.
-Your friends all look at you, waiting for your decision.*
+*You are in your sophomore year in high school. You and some of your friends are playing basketball after
+school. Melody walks up and asks if she can join as well. Your friends all look at you, waiting for your
+decision.*
 
 **Do you:**
 

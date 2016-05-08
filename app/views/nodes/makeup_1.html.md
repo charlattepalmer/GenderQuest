@@ -1,2 +1,2 @@
 
-[Continue journey](/node/equal_pay)
+[Continue journey](/node/basketball_max)

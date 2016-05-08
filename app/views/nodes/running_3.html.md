@@ -1,2 +1,2 @@
 
-[Continue journey](/node/basketball_max)
+[Continue journey](/node/makeup)
