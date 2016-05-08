@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dude</title>
+  <title>GenderQuest</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= javascript_tag "var AUTH_TOKEN = '#{form_authenticity_token}';" if protect_against_forgery? %>
 </head>
 <body>
-<p>[here is the same header on all pages]</p>
-<hr>
-<div id="content"><%= content_for?(:content) ? yield(:content) : yield %></div>
-<hr>
-<p>[here is the same footer on all pages]</p>
-<%= link_to "Start over", root_path %>
+<main class="container">
+  <br>
+  <p>[here is the same header on all pages]</p>
+  <hr>
+
+  <div id="flash-messages">
+    <%= render 'layouts/flash_messages' %>
+  </div>
+
+  <div id="content"><%= content_for?(:content) ? yield(:content) : yield %></div>
+
+  <hr>
+  <p>[here is the same footer on all pages]</p>
+  <%= link_to "Start over", root_path %>
+  <br>
+</main>
 </body>
 </html>

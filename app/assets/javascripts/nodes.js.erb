@@ -4,6 +4,8 @@ function do_post(path, parameters) {
   form.attr("method", "post");
   form.attr("action", path);
 
+  // for Rails, add the authenticity_token to the parameters we send
+  parameters["authenticity_token"] = AUTH_TOKEN;
   $.each(parameters, function(key, value) {
     var field = $('<input></input>');
 

@@ -28,6 +28,8 @@ class NodesController < ApplicationController
     elsif controller_name == "nodes" and action_name == "show"
       @name = ActionController::Base.helpers.sanitize(params[:name])
       chain =  ActionController::Base.helpers.sanitize(params[:chain])
+      redirect_to root_path, notice: "There has been an error, please start over." if chain.blank?
+
       @chain = chain.blank? ? [] : JSON.parse(chain)
       # puts "@name is #{@name}"
       # puts "old @chain is #{@chain}"

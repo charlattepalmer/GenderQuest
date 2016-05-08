@@ -4,13 +4,15 @@
 </script>
 
 <% content_for :content do %>
-    <div id="scores">Score: <%= @score %></div
-    <div id="chain">Chain: <%= @chain %></div>
-    <hr>
-    <br><br>
+    <% if Rails.env.development? %>
+        <div class="debug" %>
+          <div id="scores">Score: <%= @score %></div>
+          <div id="chain">Chain: <%= @chain %></div>
+        </div>
+        <hr>
+    <% end %>
     <div class="node-markdown">
       <%= yield %>
     </div>
-    <br><br>
 <% end %>
 <%= render template: "layouts/application" %>
