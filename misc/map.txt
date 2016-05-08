@@ -15,11 +15,7 @@ teams 1, 2, 3, -> running
 
 running -> running 1, 2, 3
 
-running 1, 2, 3 -> makeup
-
-makeup -> makeup 1, 2, 3
-
-makeup 1, 2, 3 -> basketball_max
+running 1, 2, 3 -> basketball_max
 
 basketball_max -> basketball_melody 1, 2, 3
 
