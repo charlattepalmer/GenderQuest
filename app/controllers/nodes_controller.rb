@@ -32,7 +32,7 @@ class NodesController < ApplicationController
       # puts "@name is #{@name}"
       # puts "old @chain is #{@chain}"
       # puts "old @score is #{@score}"
-      # @chain << @name
+      @chain << @name
 
       @chain.each do |n|
         delta = hash[n.parameterize.underscore.to_sym]
