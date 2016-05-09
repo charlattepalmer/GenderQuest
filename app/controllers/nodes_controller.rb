@@ -24,6 +24,9 @@ class NodesController < ApplicationController
         "running_1" => -1,
         "running_3" => +1,
 
+        "fat_1" => -1,
+        "fat_3" => +1,
+
         "basketball_melody_1" => -1,
         "basketball_melody_3" => +1,
 

@@ -7,12 +7,13 @@
     <div class="node-markdown">
       <%= yield %>
     </div>
-    <% if Rails.env.development? %>
+    <% if true or Rails.env.development? %>
         <hr>
         <div class="debug" %>
           <div id="scores">Score: <%= @score %></div>
-          <div id="chain">Chain: <%= @chain %></div>
+          <!--<div id="chain">Chain: <%#= @chain %></div>-->
         </div>
+        <hr>
     <% end %>
 <% end %>
 <%= render template: "layouts/application" %>
