@@ -5,4 +5,4 @@
 *You are silent and your friends continue to compare Melody to Heidi Klum. "You guys have the
 same hair, the same face, the same style... its scary!" your friends remark.
 
-[Continue journey](/node/anorexia)
+[Continue journey](/node/basketball_max)
