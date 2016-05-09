@@ -4,16 +4,20 @@
 </script>
 
 <% content_for :content do %>
+    <% if true or Rails.env.development? %>
+        <% if action_name != "index" %>
+            <br>
+            <div class="score" %>
+              <div id="scores">Melody's empowerment score: <%= @score %> </div>
+              <!--<div id="chain">Chain: <%#= @chain %></div>-->
+            </div>
+            <br>
+        <% end %>
+    <% end %>
     <div class="node-markdown">
       <%= yield %>
     </div>
-    <% if true or Rails.env.development? %>
-        <hr>
-        <div class="debug" %>
-          <div id="scores">Empowerment score: <%= @score %></div>
-          <!--<div id="chain">Chain: <%#= @chain %></div>-->
-        </div>
-        <hr>
-    <% end %>
+    <br>
+    <br>
 <% end %>
 <%= render template: "layouts/application" %>
