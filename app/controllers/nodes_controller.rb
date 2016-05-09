@@ -20,6 +20,21 @@ class NodesController < ApplicationController
 
         "teams_1" => -1,
         "teams_3" => +1,
+
+        "running_1" => -1,
+        "running_3" => +1,
+
+        "basketball_melody_1" => -1,
+        "basketball_melody_3" => +1,
+
+        "basketball_melody_1_1" => -1,
+        "basketball_melody_1_3" => +1,
+
+        "college_1" => -1,
+        "college_3" => +1,
+
+        "promotion_1" => -1,
+        "promotion_3" => +1,
     }.with_indifferent_access
 
     @score = 0
