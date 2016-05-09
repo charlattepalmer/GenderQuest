@@ -28,4 +28,10 @@ impact.
 **Without further ado, here is Gender Quest: Delving Deeper into the Effect of
 Media Influence and What You Can Do to Prevent It**
 
-* [Start Melody's journey](/node/barbie)
+<br>
+
+-- Charlotte Palmer
+
+<br>
+
+[Start Melody's journey](/node/barbie)
