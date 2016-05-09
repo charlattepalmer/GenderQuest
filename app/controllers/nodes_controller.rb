@@ -49,8 +49,8 @@ class NodesController < ApplicationController
       chain =  ActionController::Base.helpers.sanitize(params[:chain])
       if chain.blank?
         Pageview.create(controller_name: controller_name, action_name: action_name, session_id: session.id, data: {error: "blank chain", chain: @chain, score:@score})
-        flash[:danger] = "There has been an error, please start over."
-        redirect_to root_path
+        #flash[:danger] = "There has been an error, please start over."
+        #redirect_to root_path
       end
 
       @chain = chain.blank? ? [] : JSON.parse(chain)
