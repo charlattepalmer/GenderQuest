@@ -7,4 +7,4 @@
 of hard work and research, but now, finally, we found it. Yes, ladies and gentlemen, you heard
 that right. We found the cure to breast cancer!" You smile as the audience bursts into applause.*
 
-[Continue journey](/node/thank_you)
+[End journey](/node/thank_you)
