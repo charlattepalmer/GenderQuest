@@ -1,5 +1,5 @@
 
-## You are: Max (Melody's Classmate)
+## You are: Max
 ## Location: School
 
 *In your fifth grade PE class you are choosing teams for dodgeball. You and the other team captain, another boy, have

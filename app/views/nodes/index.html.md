@@ -16,7 +16,7 @@ discrimination in some form.
 
 **If you're a boy, this is something new.**
 
-You can now to witness firsthand a world where you are the lower class.
+You can now witness firsthand a world where you are the lower class.
 
 You can now experience inequality in everyday life.
 
