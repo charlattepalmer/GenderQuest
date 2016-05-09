@@ -14,5 +14,7 @@ do.*
 a) [Continue working and pretend you never heard the conversation](/node/promotion_1)
 
 b) [Ask your boss what they are talking about](/node/promotion_2)
+<div class="restrict" data-restrict-if-score-below=0 ></div>
 
 c) [Inform your boss that you want to participate in the project](/node/promotion_3)
+<div class="restrict" data-restrict-if-score-below=1 ></div>

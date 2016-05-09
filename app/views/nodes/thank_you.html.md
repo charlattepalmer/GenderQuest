@@ -8,3 +8,5 @@ negative influences that affect so many girls’ lives. And that's where you com
 aware of your actions, because everything you say, big or small, has an impact. Please pass this
 on to your friends, as together we can work to make sure that every girl has an opportunity in
 life equal to her male counterparts.*
+
+<%= link_to "Start over", root_path %>

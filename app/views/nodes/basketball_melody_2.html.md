@@ -12,3 +12,4 @@ a) [Tell them that you are going shopping with the girls instead](/node/basketba
 b) [Tell them you're going home instead](/node/basketball_melody_2_2)
 
 c) [Say "Great!" and join the game](/node/basketball_melody_2_3)
+<div class="restrict" data-restrict-if-score-below=0 ></div>
