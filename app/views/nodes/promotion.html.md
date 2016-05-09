@@ -11,8 +11,8 @@ do.*
 
 **Do you:**
 
-a) [Continue working and pretend you never heard the conversation](/node/equal_pay_1)
+a) [Continue working and pretend you never heard the conversation](/node/promotion_1)
 
-b) [Ask your boss what they are talking about](/node/equal_pay_2)
+b) [Ask your boss what they are talking about](/node/promotion_2)
 
-c) [Inform your boss that you want to participate in the project](/node/equal_pay_3)
+c) [Inform your boss that you want to participate in the project](/node/promotion_3)
