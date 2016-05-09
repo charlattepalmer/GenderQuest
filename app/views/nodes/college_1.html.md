@@ -6,4 +6,4 @@
 around to walk the other way. As soon as the is out of sight you turn back around and walk to your calculus
 class.*
 
-[Continue journey](/node/equal_pay)
+[Continue journey](/node/promotion)
