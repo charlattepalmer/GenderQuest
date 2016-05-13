@@ -9,7 +9,8 @@
   <%= javascript_tag "var AUTH_TOKEN = '#{form_authenticity_token}';" if protect_against_forgery? %>
 </head>
 <body>
-<%= render 'layouts/pictures', a:1, b:8 %>
+<% list = (1..14).to_a %>
+<%= render 'layouts/pictures', list: list[0..7] %>
 <main class="container">
   <br><br><br>&nbsp;
   <div id="flash-messages">
@@ -17,7 +18,21 @@
   </div>
 
   <div id="content"><%= content_for?(:content) ? yield(:content) : yield %></div>
+  <hr>
+  <%= link_to "Start Over", root_path, data: { confirm: "Start Gender Quest over from the beginning?" }, style: "float:right; vertical-align: text-bottom; padding-left:25px;" unless (controller_name == "nodes" and action_name == "index") %>
+  <%= link_to "Credits", node_path("credits"), style: "float:right; vertical-align: text-bottom; padding-left:25px;" %>
+  <%= link_to "Contact", "mailto:genderquest@charlottepalmer.com?subject=Gender Quest", style: "float:right; vertical-align: text-bottom; padding-left:25px;" %>
+  <div class="social-container">
+    <div class="links">
+      <a href="#" title="Share on Facebook" data-type="facebook" data-url="http://genderquest.herokuapp.com" data-title="Gender Quest." data-description="A seventh grader at Menlo School made this 'choose your own adventure' style site about gender bias." class="prettySocial fa fa-facebook"></a>
+      <a href="#" title="Share on Twitter" data-type="twitter" data-url="http://genderquest.herokuapp.com" data-description="A seventh grader at Menlo School made this 'choose your own adventure' style site about gender bias." class="prettySocial fa fa-twitter"></a>
+      <a href="mailto:?subject=gender bias&body=%0D%0AA seventh grader at Menlo School made this 'choose your own adventure' style site about gender bias:%0D%0A%0D%0Ahttp://genderquest.herokuapp.com/%0D%0A%0D%0A" title="Share via Email" class="fa fa-envelope"></a>
+    </div>
+    <script type="text/javascript" class="source">
+      $('.prettySocial').prettySocial();
+    </script>
+  </div>
 </main>
-<%= render 'layouts/pictures', a:9, b:14 %>
+<%= render 'layouts/pictures', list: list[7..14] %>
 </body>
 </html>

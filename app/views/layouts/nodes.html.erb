@@ -5,7 +5,7 @@
 
 <% content_for :content do %>
     <% if true or Rails.env.development? %>
-        <% if action_name != "index" %>
+        <% if action_name != "index" and (params[:name] != "credits") %>
             <br>
             <div class="score" %>
               <div id="scores">Melody's empowerment score: <%= @score %> </div>
@@ -17,7 +17,6 @@
     <div class="node-markdown">
       <%= yield %>
     </div>
-    <br>
     <br>
 <% end %>
 <%= render template: "layouts/application" %>

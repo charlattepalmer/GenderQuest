@@ -9,4 +9,4 @@ aware of your actions, because everything you say, big or small, has an impact. 
 on to your friends, as together we can work to make sure that every girl has an opportunity in
 life equal to her male counterparts.*
 
-<%= link_to "Start over", root_path, data: { confirm: "Play Gender Quest again?" } %>
+<%= link_to "Start Over", root_path, data: { confirm: "Play Gender Quest again?" } %>
