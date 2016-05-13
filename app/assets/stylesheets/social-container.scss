@@ -4,11 +4,12 @@
   //left: 50%;
   //margin-left: -190px;
   //margin-top: -50px;
-  width: 380px;
-  height: 100px;
+  //width: 380px;
+  //height: 60px;
 }
 .social-container .links {
-  margin-bottom: 40px;
+  //margin-top: 10px;
+  margin-bottom: 20px;
   text-align: center;
   display: inline-block;
 }
@@ -22,4 +23,16 @@
 }
 .social-container .links a:hover {
   color: #ED452A;
+}
+
+.footer-menu {
+  float:right;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+
+  a {
+    padding-left: 25px;
+  }
 }

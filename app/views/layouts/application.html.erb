@@ -19,9 +19,11 @@
 
   <div id="content"><%= content_for?(:content) ? yield(:content) : yield %></div>
   <hr>
-  <%= link_to "Start Over", root_path, data: { confirm: "Start Gender Quest over from the beginning?" }, style: "float:right; vertical-align: text-bottom; padding-left:25px;" unless (controller_name == "nodes" and action_name == "index") %>
-  <%= link_to "Credits", node_path("credits"), style: "float:right; vertical-align: text-bottom; padding-left:25px;" %>
-  <%= link_to "Contact", "mailto:genderquest@charlottepalmer.com?subject=Gender Quest", style: "float:right; vertical-align: text-bottom; padding-left:25px;" %>
+  <div class="footer-menu">
+    <%= link_to "Start Over", root_path, data: { confirm: "Start Gender Quest over from the beginning?" } unless (controller_name == "nodes" and action_name == "index") %>
+    <%= link_to "Credits", node_path("credits") %>
+    <%= link_to "Contact", "mailto:genderquest@charlottepalmer.com?subject=Gender Quest" %>
+  </div>
   <div class="social-container">
     <div class="links">
       <a href="#" title="Share on Facebook" data-type="facebook" data-url="http://genderquest.herokuapp.com" data-title="Gender Quest." data-description="A seventh grader at Menlo School made this 'choose your own adventure' style site about gender bias." class="prettySocial fa fa-facebook"></a>
